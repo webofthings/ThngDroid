@@ -22,7 +22,7 @@ import com.evrythng.wrapper.android.model.Thng;
 
 public class Main {
 	private static String EVRYTHNG_ROOT_URL = "URL_HERE";
-    
+	
 	/**
 	 * @param args
 	 */

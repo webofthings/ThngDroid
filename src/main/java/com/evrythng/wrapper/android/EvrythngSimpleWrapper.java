@@ -22,13 +22,13 @@ import org.apache.http.client.methods.HttpGet;
  *
  * <p> This is a very basic wrapper around the EVRYTHNG APIs. </p>
  *
- * @author Dominique Guinard (domguinard) 
- * @project evrythng-android-wrapper 
- * @package com.evrythng.wrapper.android 
- * @copyright 2012 Evrythng Ltd London / Zurich
+ * @author Dominique Guinard (domguinard) @project evrythng-android-wrapper
+ * @package com.evrythng.wrapper.android @copyright 2012 Evrythng Ltd London /
+ * Zurich
  *
  */
 public class EvrythngSimpleWrapper {
+
     private String evrythngRoot;
     private static final String ACCEPT_TYPE = "application/json";
     private static final String CONTENT_TYPE = ACCEPT_TYPE;
@@ -37,8 +37,6 @@ public class EvrythngSimpleWrapper {
     public EvrythngSimpleWrapper(String evrythngRootUrl) {
 	this.evrythngRoot = evrythngRootUrl;
     }
-    
-
     private static ObjectMapper mapper = new ObjectMapper();
 
     public <T> T post(String path, T object, Class<T> cl) {
@@ -65,7 +63,7 @@ public class EvrythngSimpleWrapper {
 	return null;
     }
 
-        public <T> T get(String path, Class<T> cl) {
+    public <T> T get(String path, Class<T> cl) {
 	HttpClient httpclient = new DefaultHttpClient();
 	HttpGet request = new HttpGet(evrythngRoot + path);
 	request.addHeader("Accept", "application/json");
@@ -85,6 +83,4 @@ public class EvrythngSimpleWrapper {
 	}
 	return null;
     }
-	
-    
 }
