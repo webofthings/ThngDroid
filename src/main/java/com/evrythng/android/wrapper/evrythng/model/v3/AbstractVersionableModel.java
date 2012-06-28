@@ -3,7 +3,7 @@
  * www.evrythng.com
  * 
  */
-package com.evrythng.wrapper.android.model;
+package com.evrythng.android.wrapper.evrythng.model.v3;
 
 /**
  * <h1>AbstractVersionableModel.java</h1>

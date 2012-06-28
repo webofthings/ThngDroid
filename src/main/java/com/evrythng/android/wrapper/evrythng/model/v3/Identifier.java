@@ -1,4 +1,4 @@
-package com.evrythng.wrapper.android.model;
+package com.evrythng.android.wrapper.evrythng.model.v3;
 
 /*
  * (c) Copyright 2012 EVRYTHNG Ltd London / Zurich www.evrythng.com

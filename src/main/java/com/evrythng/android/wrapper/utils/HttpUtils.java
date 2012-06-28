@@ -3,7 +3,7 @@
  * www.evrythng.com
  * 
  */
-package com.evrythng.wrapper.android.utils;
+package com.evrythng.android.wrapper.utils;
 
 import java.io.BufferedReader;
 import java.io.IOException;
