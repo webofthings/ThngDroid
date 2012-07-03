@@ -2,8 +2,17 @@ ThngDroid
 =========
 
 Android Wrapper for the EVRYTHNG API!
+This project is currently merely in a beta state! Don't expect extreme stability! ;-)
 
-This project is currently merely in a beta state! Come again soon... ;-)
+# Usage in an Android projects
+
+If you do not want to make changes to the library, simply use the latest build in the download section: https://github.com/domguinard/ThngDroid/downloads
+or build it from the sources (see below).
+
+Add the library to your Android project (and make sure it is packaged by seleecting it in "Order and Export") and 
+use it from your activities/Android code.
+
+# Building the library
 
 To generate a jar file that can be used in Android do:
 
@@ -11,7 +20,7 @@ To generate a jar file that can be used in Android do:
 
 You can see this project in action in the FreezeMe app: https://github.com/domguinard/FreezeMe
     
-Sample Main file:
+# Sample usage
 
     public class Main {
 		private static String EVRYTHNG_ROOT_URL_V3 = "URL";
