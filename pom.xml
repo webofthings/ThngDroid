@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.evrythng.wrapper.android</groupId>
 	<artifactId>ThngDroid</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.3-beta</version>
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
