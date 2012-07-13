@@ -1,7 +1,7 @@
 ThngDroid
 =========
 
-Android Wrapper for the EVRYTHNG API!
+A Wrapper for the EVRYTHNG API that compiles with Dalvik to be used for your Android projects!
 This project is currently merely in a beta state! Don't expect extreme stability! ;-)
 
 # Usage in an Android projects
@@ -9,7 +9,7 @@ This project is currently merely in a beta state! Don't expect extreme stability
 If you do not want to make changes to the library, simply use the latest build in the download section: https://github.com/domguinard/ThngDroid/downloads
 or build it from the sources (see below).
 
-Add the library to your Android project (and make sure it is packaged by seleecting it in "Order and Export") and 
+Add the library to your Android project (and make sure it is packaged by selecting it in "Order and Export") and 
 use it from your activities/Android code.
 
 # Building the library
