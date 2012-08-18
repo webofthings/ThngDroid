@@ -18,7 +18,7 @@ To generate a jar file that can be used in Android do:
 
     mvn assembly:single
 
-You can see this project in action in the FreezeMe app: https://github.com/domguinard/FreezeMe
+You can see this project in action in the FreezeMe app: https://github.com/webofthings/FreezeMe
     
 # Sample usage
 
